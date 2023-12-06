@@ -5,7 +5,19 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 
-export default function PortfolioContainer() {
+const styles = {
+  headerStyle: {
+    background: 'red',
+  },
+  headingStyle: {
+    fontSize: '100px',
+  },
+};
+
+// We use JSX curly braces to evaluate the style object
+
+function Header() {
+
   const [currentPage, setCurrentPage] = useState('About');
 
   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
@@ -22,14 +34,18 @@ export default function PortfolioContainer() {
     return <Contact />;
   };
 
-  const handlePageChange = (page) => setCurrentPage(page);
-
+      const handlePageChange = (page) => setCurrentPage(page);
   return (
     <div>
+
+      <header style={styles.headerStyle} className="header">
+        <h1 style={styles.headingStyle}>Header</h1>
+      </header>
       {/* We are passing the currentPage from state and the function to update it */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
-      <main className="mx-3">{renderPage()}</main>
-    </div>
+      <main className="mx-3">{renderPage()}</main>    </div>
   );
 }
+
+export default Header;
