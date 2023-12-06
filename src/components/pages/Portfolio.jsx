@@ -1,15 +1,24 @@
 import Project from "../Project";
 
 
-const projects = [{
-  title: 'Dish and Drink',
-  description: 'This was our project 2 project',
-  id: 1,
-}];
+const projects = [
+  {
+    title: 'Board Game Cabinet'
+  },
+  {
+    title: 'Dishr & Drinkr',
+  },
+  {
+    title: 'Coding Study Guide'
+  },
+  {
+    title: 'Horiseon SEO'
+  }
+];
 
 export default function Portfolio() {
   return (
-    <div>
+    <div className='content-box'>
       <h1>Portfolio</h1>
       <div>
         <Project projects = {projects} />

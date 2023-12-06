@@ -10,7 +10,7 @@ const styles = {
     background: 'red',
   },
   headingStyle: {
-    fontSize: '100px',
+    fontSize: '70px',
   },
 };
 
@@ -36,15 +36,21 @@ function Header() {
 
       const handlePageChange = (page) => setCurrentPage(page);
   return (
-    <div>
+      <div>
 
-      <header style={styles.headerStyle} className="header">
-        <h1 style={styles.headingStyle}>Header</h1>
+      <header style={styles.headerStyle} className="headerclass">
+        <div>
+          <h1 style={styles.headingStyle}>Estevan Gonzales</h1>
+        </div>
+        <div>
+          <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+        </div>
+
       </header>
       {/* We are passing the currentPage from state and the function to update it */}
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
-      <main className="mx-3">{renderPage()}</main>    </div>
+        <main className="mx-3">{renderPage()}</main>
+      </div>
   );
 }
 
