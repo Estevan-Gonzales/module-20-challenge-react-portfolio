@@ -4,24 +4,44 @@
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
+  background-color: grey;
 }
 
 body {
-  background-color: whitesmoke;
+  background-color: white;
+}
+.project-image {
+  width: 50%;
+  margin: 10px;
+  display: flex;
+
+}
+
+.content {
+  background-color: green;
+}
+
+.main-content {
+  background-color: yellow;
 }
 
 .single-project-box {
-  background: purple;
-  border: solid black;
+
+  display: flex;
+  flex-wrap: wrap;
+
 }
 
 .single-project {
-  background: orange;
-  border: solid black;
+
+  width: 40%;
+  justify-content: middle;
+  background-color: aqua;
+  margin: 10px;
 }
 
 .content-box {
-  background: pink;
+  background-color: pink;
 }
 
 .bucket-app {
@@ -39,7 +59,7 @@ body {
 
 h1 {
   margin: 32px 0;
-  color: #fff;
+  color: yellowgreen;
   font-size: 24px;
 }
 

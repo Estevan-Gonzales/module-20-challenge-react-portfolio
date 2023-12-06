@@ -7,10 +7,12 @@ import Contact from './pages/Contact';
 
 const styles = {
   headerStyle: {
-    background: 'red',
+    background: 'blue',
   },
   headingStyle: {
     fontSize: '70px',
+    background: 'orange',
+    margin: '20px'
   },
 };
 

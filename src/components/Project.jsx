@@ -7,9 +7,10 @@ function Project(props) {
         {/* Here we map over each grocery item and return a new array of `li` elements that contains the grocery name */}
         {/* When using map you must provide a unique key attribute to each item. Ours is `item.id` */}
         {props.projects.map(item => (
-          <li className="single-project" key={item.title}>
-            {item.title}
-          </li>
+          <div className="single-project" key={item.title}>
+            <div>{item.title}</div>
+            <a href={item.url}><img className="project-image" src={item.image}></img></a>
+          </div>
         ))}
       </ul>
     );
