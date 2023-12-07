@@ -11,9 +11,18 @@ const styles = {
 
 function Footer() {
   return(
-  <header style={styles.headerStyle} className="header">
-  <h1 style={styles.headingStyle}>Footer</h1>
-  </header>)
+    <div>
+      <a href="https://github.com/Estevan-Gonzales/">
+        <img className="contact-image" src="../src/images/github-logo.png"></img>
+      </a>
+      <a href="https://www.linkedin.com/in/estevan-gonzales/">
+        <img className="contact-image" src="../src/images/linkedin-logo.png"></img>
+      </a>
+      <a href="https://twitter.com/estevan_gogh/">
+        <img className="contact-image" src="../src/images/twitter-logo.png"></img>
+      </a>
+    </div>
+)
 }
 
 export default Footer;
