@@ -11,7 +11,7 @@ const styles = {
 
 function Footer() {
   return(
-    <div>
+    <div className="footer-container">
       <a href="https://github.com/Estevan-Gonzales/">
         <img className="contact-image" src="../src/images/github-logo.png"></img>
       </a>
@@ -22,6 +22,7 @@ function Footer() {
         <img className="contact-image" src="../src/images/twitter-logo.png"></img>
       </a>
     </div>
+
 )
 }
 
