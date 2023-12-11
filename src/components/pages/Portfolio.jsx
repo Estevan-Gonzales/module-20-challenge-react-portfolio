@@ -2,10 +2,15 @@ import Project from "../Project";
 
 
 const projects = [
-
+  {
+    title: 'Watchtogethr',
+    image: '/watchtogethr.png',
+    url: '',
+    repo: 'https://github.com/MikeTritsch/watchtogethr'
+  },
   {
     title: 'Dishr & Drinkr',
-    image: 'dishranddrinkr.png',
+    image: '/dishranddrinkr.png',
     url: 'https://estevan-gonzales.github.io/project-1-dishr-and-drinkr/',
     repo: 'https://github.com/Estevan-Gonzales/project-1-dishr-and-drinkr'
   },

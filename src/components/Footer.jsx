@@ -13,13 +13,13 @@ function Footer() {
   return(
     <div className="footer-container">
       <a href="https://github.com/Estevan-Gonzales/">
-        <img className="contact-image" src="../publish/github-logo.png"></img>
+        <img className="contact-image" src="/github-logo.png"></img>
       </a>
       <a href="https://www.linkedin.com/in/estevan-gonzales/">
-        <img className="contact-image" src="../publish/linkedin-logo.png"></img>
+        <img className="contact-image" src="/linkedin-logo.png"></img>
       </a>
       <a href="https://twitter.com/estevan_gogh/">
-        <img className="contact-image" src="../publish/twitter-logo.png"></img>
+        <img className="contact-image" src="/twitter-logo.png"></img>
       </a>
     </div>
 

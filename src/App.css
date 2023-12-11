@@ -14,13 +14,19 @@ body {
 .project-image {
   width: 50%;
   margin: 10px;
-  display: flex;
+  align-self: center
 
 }
 
 .header-class {
-  background-color: orange;
+  background-color: darkorange;
   border-bottom: solid grey;
+  padding: 50px;
+}
+
+.heading-style {
+  text-align: center;
+  padding: 20px;
 }
 
 .footer-container {
@@ -65,10 +71,12 @@ body {
 
 .single-project {
 
-  width: 40%;
-  justify-content: middle;
-  background-color: grey;
+  width: 45%;
+  justify-content: center;
   margin: 10px;
+  border: solid darkorange 5px;
+  text-align: center;
+  padding: 5px;
 }
 
 .content-box {
@@ -104,6 +112,11 @@ h3 {
   height: 200px;
   float: left;
   margin-right: 20px;
+}
+
+.mx-3 {
+
+padding: 30px;
 }
 
 .about {
@@ -210,6 +223,8 @@ h3 {
   margin-right: 5px;
   color: #fff;
 }
+
+
 
 .edit-icon {
   color: #fff;

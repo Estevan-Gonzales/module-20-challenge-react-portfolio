@@ -6,9 +6,7 @@ import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 
 const styles = {
-  headerStyle: {
-    background: 'blue',
-  },
+
   headingStyle: {
     fontSize: '70px',
     background: 'orange',
@@ -42,7 +40,7 @@ function Header() {
 
       <header style={styles.headerStyle} className="headerclass">
         <div>
-          <h1 style={styles.headingStyle}>Estevan Gonzales</h1>
+          <h1 style={styles.headingStyle} className="heading-style">Estevan Gonzales</h1>
         </div>
         <div>
           <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
