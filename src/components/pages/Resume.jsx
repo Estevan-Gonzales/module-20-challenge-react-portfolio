@@ -8,6 +8,9 @@ export default function Resume() {
         <ul>
           <li>React</li>
           <li>Handlebars</li>
+          <li>CSS</li>
+          <li>Bootstrap</li>
+          <li>APIs</li>
         </ul>
       </section>
       <section>
@@ -15,6 +18,8 @@ export default function Resume() {
         <ul>
           <li>MongoDB</li>
           <li>Node</li>
+          <li>SQL</li>
+          <li>NoSQL</li>
         </ul>
       </section>
 
