@@ -12,7 +12,7 @@ Through this project, I have learned how to better market myself as a developer.
 ### Option 1:
 1. Inspect written HTML code directly on Github
 2. View Github page of raw HTML code using the link below:    
-https://github.com/Estevan-Gonzales/module-20-challenge-react-portfolio3. Use Developer Tools to view meta data associated with the compiled HTML/CSS.
+https://github.com/Estevan-Gonzales/module-20-challenge-react-portfolio. Use Developer Tools to view meta data associated with the compiled HTML/CSS.
 
 ### Option 2:
 1. Clone this repository to your local machine.
