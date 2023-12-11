@@ -5,7 +5,7 @@ const projects = [
   {
     title: 'Watchtogethr',
     image: '/watchtogethr.png',
-    url: '',
+    url: 'https://watchtogethr-aeeae66b60e6.herokuapp.com/Login',
     repo: 'https://github.com/MikeTritsch/watchtogethr'
   },
   {
