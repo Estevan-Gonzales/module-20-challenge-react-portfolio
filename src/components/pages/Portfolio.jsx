@@ -5,7 +5,7 @@ const projects = [
 
   {
     title: 'Dishr & Drinkr',
-    image: 'https://github.com/Estevan-Gonzales/source-images/blob/7eaead55322b96f81c822e0e06b26afdbdfd0588/dishranddrinkr.png',
+    image: 'dishranddrinkr.png',
     url: 'https://estevan-gonzales.github.io/project-1-dishr-and-drinkr/',
     repo: 'https://github.com/Estevan-Gonzales/project-1-dishr-and-drinkr'
   },
