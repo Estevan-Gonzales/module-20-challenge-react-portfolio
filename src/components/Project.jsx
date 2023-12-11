@@ -8,7 +8,7 @@ function Project(props) {
         {/* When using map you must provide a unique key attribute to each item. Ours is `item.id` */}
         {props.projects.map(item => (
           <div className="single-project" key={item.title}>
-            <div>{item.title}</div>
+            <a href={item.repo}><div>{item.title}</div></a>
             <a href={item.url}><img className="project-image" src={item.image}></img></a>
           </div>
         ))}

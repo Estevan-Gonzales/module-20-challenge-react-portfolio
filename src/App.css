@@ -4,7 +4,7 @@
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
-  background-color: grey;
+  background-color: lightblue;
 }
 
 body {
@@ -18,10 +18,16 @@ body {
 
 }
 
+.header-class {
+  background-color: orange;
+  border-bottom: solid grey;
+}
+
 .footer-container {
   display: flex;
   justify-content: center;
-  background-color: blue;
+  border-top: solid grey;
+  background-color: lightblue;
 }
 
 .contact-image {
@@ -42,11 +48,11 @@ body {
 
 
 .content {
-  background-color: green;
+  background-color: lightblue;
 }
 
 .main-content {
-  background-color: yellow;
+  background-color: lightblue;
 }
 
 .single-project-box {
@@ -60,7 +66,7 @@ body {
 
   width: 40%;
   justify-content: middle;
-  background-color: aqua;
+  background-color: grey;
   margin: 10px;
 }
 
@@ -83,13 +89,13 @@ body {
 
 h1 {
   margin: 32px 0;
-  color: yellowgreen;
+  color: orange;
   font-size: 24px;
 }
 
 h3 {
   margin: auto;
-  color: rgb(66, 171, 231);
+  color: orange
   font-size: 20px;
 }
 
