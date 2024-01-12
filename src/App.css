@@ -9,8 +9,15 @@
 
 body {
   background-color: purple;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+
 
 }
+
 .project-image {
   width: 50%;
   margin: 10px;

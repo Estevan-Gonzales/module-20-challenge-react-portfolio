@@ -5,9 +5,13 @@ import './App.css';
 
 function App() {
     return (
-      <div>
-        <Header />
-        <Footer />
+      <div className="grid">
+        <div></div>
+        <div>
+          <Header />
+          <Footer />
+        </div>
+        <div></div>
       </div>
     );
   }
